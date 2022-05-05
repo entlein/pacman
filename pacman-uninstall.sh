@@ -8,6 +8,7 @@ kubectl delete -n $pacman -f deployments/pacman-deployment.yaml
 kubectl delete -n $pacman -f services/mongo-service.yaml
 kubectl delete -n $pacman -f services/pacman-service.yaml
 kubectl delete -n $pacman -f ingress/pacman-service.yaml
+kubectl delete secret -n $pacman $pacman-ingress-tls
 
 if [[ $# -gt 0  && "$1" == "keeppvc" ]]
 then
