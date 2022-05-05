@@ -7,6 +7,7 @@ kubectl delete -n $pacman -f deployments/mongo-deployment.yaml
 kubectl delete -n $pacman -f deployments/pacman-deployment.yaml
 kubectl delete -n $pacman -f services/mongo-service.yaml
 kubectl delete -n $pacman -f services/pacman-service.yaml
+kubectl delete -n $pacman -f ingress/pacman-service.yaml
 
 if [[ $# -gt 0  && "$1" == "keeppvc" ]]
 then
@@ -18,3 +19,4 @@ fi
 echo "cleaning up your files"
 rm persistentvolumeclaim/mongo-pvc.yaml
 rm security/secret.yaml
+rm ingress/ingress.yaml
