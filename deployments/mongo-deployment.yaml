@@ -46,7 +46,7 @@ spec:
         persistentVolumeClaim:
           claimName: mongo-storage
       containers:
-      - image: bitnami/mongodb:4.4.8
+      - image: bitnami/mongodb:4.4.14
         name: mongo
         env:
         - name: MONGODB_ROOT_PASSWORD
