@@ -20,4 +20,3 @@ done
 kubectl apply -n $pacman -f deployments/pacman-deployment.yaml
 kubectl apply -n $pacman -f services/mongo-service.yaml
 kubectl apply -n $pacman -f services/pacman-service.yaml
-kubectl apply -n $pacman -f ingress/ingress.yaml
