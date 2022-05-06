@@ -17,7 +17,7 @@ spec:
         name: pacman
     spec:
       containers:
-      - image: adlsregistrysbx.azurecr.io/tutorials/pacman:0.0.2
+      - image: adlsregistrysbx.azurecr.io/tutorials/pacman:0.0.3
         name: pacman
         ports:
         - containerPort: 8080
