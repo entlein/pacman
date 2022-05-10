@@ -1,7 +1,7 @@
 #!/bin/sh
 #Taken from this blog: https://vzilla.co.uk/vzilla-blog/building-the-home-lab-kubernetes-playground-part-9
 #Please modify the next two lines with your values
-export KUBECONFIG=~/Downloads/local-2.yaml
+export KUBECONFIG=~/Downloads/local-3.yaml
 export pacman='u-r6hsy45r2f'
 
 echo "Installing your PacMan app on K8s"
@@ -20,3 +20,4 @@ done
 kubectl apply -n $pacman -f deployments/pacman-deployment.yaml
 kubectl apply -n $pacman -f services/mongo-service.yaml
 kubectl apply -n $pacman -f services/pacman-service.yaml
+kubectl apply -n $pacman -f ingress/ingress.yaml
