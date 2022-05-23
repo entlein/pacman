@@ -2,7 +2,7 @@
 #Taken from this blog: https://vzilla.co.uk/vzilla-blog/building-the-home-lab-kubernetes-playground-part-9
 #Please modify the next two lines with your values
 export KUBECONFIG=~/Downloads/local-3.yaml
-export pacman='u-r6hsy45r2f'
+export pacman='u-rXXXX'
 
 echo "Installing your PacMan app on K8s"
 envsubst < persistentvolumeclaim/mongo-pvc.txt.yaml > persistentvolumeclaim/mongo-pvc.yaml
