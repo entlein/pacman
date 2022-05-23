@@ -2,6 +2,8 @@
 
 Tutorial Application for Teaching k8s to Beginners
 
-## The readme can be found at 
-https://gitlab.tuwien.ac.at/ADLS/services-webportal/angular-frontend/-/tree/dev/src/markdown-files/tutorials/kubernetes
+## This is not claiming to be original work, it is gratefully taken from:
+https://vzilla.co.uk/vzilla-blog/building-the-home-lab-kubernetes-playground-part-9
+
+
 
