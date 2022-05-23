@@ -1,6 +1,6 @@
 #!/bin/bash
 export KUBECONFIG=~/Downloads/local-3.yaml
-export pacman='u-r6hsy45r2f'
+export pacman='u-rXXXXXXX'
 #kubectl delete -n $pacman -f security/rbac.yaml
 kubectl delete -n $pacman -f security/secret.yaml
 kubectl delete -n $pacman -f deployments/mongo-deployment.yaml
